@@ -5,7 +5,7 @@ h1 {
 #main_UI {
   width:100vw;
   height:max-content;
-  position: fixed;
+  display:flex;
   background-color:grey;
 }
 
