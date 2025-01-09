@@ -1,9 +1,6 @@
-h1 {
-  color:blue;
-}
 
-*main_UI {
+#main_UI {
   width:100vw;
   height:100vh;
-  background:grey;
+  color:green;
 }
