@@ -36,14 +36,15 @@
 
 #block_one {
   width:94%;
-  height:250px;
+  height:48%;
   background-color: grey;
   margin-top: 15px;
   
   border-radius:1rem;
+  display:flex;
 }
 
-#block_one_left {
+#block_one-left {
   font-weight:400;
   font-size:.6rem;
   
@@ -51,7 +52,29 @@
   width:50%;
   height:100%;
   
+  padding:12px;
+  box-sizing:border-box;
+  border-radius:1rem;
+}
+
+.daily_quote {
+  margin-top:25%;
+   font-weight:400;
+}
+
+.daily_quote-ref {
+  font-weight:100;
+}
+
+#block_one-right {
+  font-weight:400;
+  font-size:.6rem;
+  
+  background-color:red;
+  width:50%;
+  height:100%;
+  
   padding:15px;
-    
+  box-sizing:border-box;
   border-radius:1rem;
 }
