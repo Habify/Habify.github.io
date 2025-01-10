@@ -1,29 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <script src="index.js"></script>
-    <div id="main_UI"> 
-      <diV id='top_nav'> 
-        <h2 id="greeting"> Good Morning William! </h1>  
-      </div>
-      <diV id='block_one'>
-        <div id='block_one-left'> 
-          <h3>DAILY LOG</h3>
-          <h4 class='daily_quote'> See, I am doing a new thing! Now it      springs up; do you not perceive it? I am making a way in the wilderness and streams in the wasteland.
-            <br><br>
-        <h5 class='daily_quote-ref'> Isaiah 43:19 </h5>
-        </div>
-        <div id='block_one-right'>  </div>
-      </div>
-      <diV id='block_two'>
-      </div>  
-    </div>
-  </body>
-</html>
+*{
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family:helvetica;
+}
+
+
+#main_UI {
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#top_nav {
+  width:100%;
+  height:10vh;
+  background-color: black;
+  color:white;
+}
+
+#greeting {
+  width:100%;
+  padding: .5rem 0px .5rem 0px;
+  
+  text-align:center;
+  color:white;
+  font-size:.75rem;
+  font-style:italic;
+  font-weight:10;
+  
+}
+
+#block_one {
+  width:94%;
+  height:48vh;
+  background-color: grey;
+  border-radius:1rem;
+  display:flex;
+  margin-bottom:38vh;
+}
+
+#block_one-left {
+  font-weight:400;
+  font-size:.6rem;
+  
+  width:50%;
+  height:100%;
+  
+  padding:12px;
+  box-sizing:border-box;
+  border-radius:1rem;
+}
+
+.daily_quote {
+  margin-top:25%;
+   font-weight:400;
+}
+
+.daily_quote-ref {
+  font-weight:100;
+}
+
+#block_one-right {
+  font-weight:400;
+  font-size:.6rem;
+  
+  background-color:red;
+  width:50%;
+  height:100%;
+  
+  padding:15px;
+  box-sizing:border-box;
+  border-radius:1rem;
+}
