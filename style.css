@@ -7,10 +7,13 @@
   box-sizing:border-box;
 }
 
+body {
+    background-color:#121212;
+}
 
 #main_UI {
   width: 100vw;
-  height: 100vh;
+  height: max-content;
   background-color: #121212;
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +26,7 @@
   background-color: black;
   color:white;
   display:flex;
+  margin-bottom:3vh;
 }
 
 #greeting {
@@ -30,8 +34,6 @@
   height:max-content;
   background-color:black;
   padding: .5rem 0px .5rem 0px;
-  
-  
   
   text-align:center;
   color:white;
@@ -47,7 +49,6 @@
   background: linear-gradient(180deg, rgba(90,90,90,1) 0%, rgba(68,68,68,0) 100%);
   border-radius:1rem;
   display:flex;
-  margin-bottom:38vh;
   padding:12px;
 }
 
@@ -107,5 +108,73 @@
   position:relative;
   bottom:-2.5px;
   width:max;
+}
+
+#block_two {
+  width:94vw;
+  height:max-content;
+  display:flex;
+  gap:6px;
+}
+#block_two-left {
+  width:50%;
+  height:max-content;
+}
+#block_two-right {
+  width:50%;
+  height:max-content;
+  background-color: rgba(90,90,90,1);
+  border-radius:1rem;
+  display:flex;
+  flex-wrap:wrap;
+  padding:12px;
+}
+
+#milestones {
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+#holder {
+  width:100%;
+  height:max-content;
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+
+.milestone {
+  width: 15px;
+  height: 15px;
+  border-radius:250%;
+  background-color:silver;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:.5rem;
+  
+  opacity:30%;
+}
+
+
+#journal_input {
+  width:100%;
+  height:125px;
+  color:black;
+  display:flex;
+  text-wrap:wrap;
+  padding:6px;
+  font-size:.6rem;
+}
+
+#daily_journal {
+  background-color: rgba(90,90,90,1);
+  border-radius:1rem;
+  display:flex;
+  padding:12px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
 }
 
