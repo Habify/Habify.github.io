@@ -84,6 +84,7 @@
   height:100%;
   
   box-sizing:border-box;
+  padding:6px;
 }
 
 .daily_list {
@@ -107,3 +108,5 @@
   bottom:-14%;
   width:max;
 }
+
+
