@@ -90,22 +90,23 @@
   width:100%;
   height:100%;
   list-style-type: none;
-  padding:4%;
+  padding:6%;
   font-size:max;
   opacity:100%;
 }
 
 .mb {
   width:100%;
-  height:8%;
+  height:7.2%;
   margin-bottom:2.5%;
   
 }
 
 .me {
   position:relative;
-  bottom:-15%;
+  bottom:-14%;
   width:max;
 }
+
 
 
