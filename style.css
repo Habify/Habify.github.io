@@ -8,7 +8,7 @@
 
 #main_UI {
   width: 100vw;
-  height: max-content;
+  height: 100vh;
   background-color: #121212;
   display: flex;
   flex-wrap: wrap;
