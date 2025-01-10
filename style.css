@@ -42,7 +42,7 @@
 
 #block_one {
   width:94%;
-  height:48vh;
+  height:max-content;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(90,90,90,1) 0%, rgba(68,68,68,0) 100%);
   border-radius:1rem;
@@ -107,6 +107,3 @@
   bottom:-14%;
   width:max;
 }
-
-
-
