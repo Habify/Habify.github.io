@@ -26,7 +26,7 @@ body {
   background-color: black;
   color:white;
   display:flex;
-  margin-bottom:3vh;
+  margin-bottom:2vh;
 }
 
 #greeting {
@@ -123,11 +123,9 @@ body {
 #block_two-right {
   width:50%;
   height:max-content;
-  background-color: rgba(90,90,90,1);
-  border-radius:1rem;
   display:flex;
   flex-wrap:wrap;
-  padding:12px;
+  gap:6px;
 }
 
 textarea {
@@ -138,6 +136,26 @@ textarea {
   display:flex;
   flex-wrap:wrap;
   gap:12px;
+  background-color: rgba(90,90,90,.7);
+  border-radius:1rem;
+  padding:12px;
+  height:94px;
+}
+
+#date {
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  background-color: rgba(90,90,90,.7);
+  background-image: url("https://ci3.googleusercontent.com/mail-img-att/AGAZnRqRnqb0Uxc8nRhi9omY60waZHYL94BJOTzLf1zWizZrfSoSA0FZFlhG70j2HjrKglqnN-aWYCWN-zcpdCtLauYNzkoWSXvT1IhEeWvCEvAF1HfLYR6JEuzRiXZKgx-fQ3VKVRor5rY7LXV-r_H-nH4KEEaTFgthflrr71HMHJLWlORMkQRXyD8njc-DYrnC2QB-UEChToefCXRu-P0tU4fKkmHrfips1ONpLUqBVhINWBbiFWeB_YSx_UbkSAR746rDovoT-LvZFX2i06rqjvpTldBlKURNqpCA4NzFKO3d8YT2TCaDVi9P04NDUGQnbS4kX1qriNHAn9r6t534dwTabxEJz-0SP7qA-kKIIzCwGZEwpWu5y2e0X_pU0xbvcz3_gq_PkRQq2p8ZY6uH7UCawCSNbdpJ1ob9EwZGCxJQibrRjAL4p2yTOu6mLGYFPngNnqYj4-fBBY0AaTcsToKL76rIWU8c5gx-jpWPwDF1MGr3sB97t5w672Z7vHFHaT4KjW79-iAEPF6F0IvB3oXVwCNN21VVcjuuKz1IHh4rK84OqPqliet_vnGpl-_AlZ4QHlsWaPYvGWdEO5n-yEPofmsIW3qaaKYMyIOGb3l6YkGn3IvDcwCh1FbjfguzclpldBauuB7wUXHFecxIb4ZGmxYh5F2Wl49yHmCUXrZO-FWsuKNwqNbgOVVBvLeHrSEYBpYE2t9dis6nH5AmVB5Nti1Du6LipzpEWFmJfSE-qwO7XIq7chgik7B5a1Q_nJs8Lxxm5kAkbsxqE7oFbw1ApaZ5wnnGuV_WvLHLNmaSfDIXR94ocgTPK6GZDt2SVlt1tetn7ETLtksvhlR7fZKJaDpgzBkmw9T36a27xyVOIByC1MsYWHDt-tZdktW1XfeKExbpV9kCd9PUROWqjYJykrL4VWf3Aq17jP6dhrVORDix1AKoZE5g4YtSgfE2xRoYZ3ouxzdX3EXBMfRV5MN9u-jpnm0G3EFSA3qg-xp_57fZubRPZKioA0HWLe0V6nuOXFtfQdJAsiZf=s0-l75-ft");
+  background-size:100%;
+  border-radius:1rem;
+  padding:12px;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+  height:94px;
+  text-shadow: black 1px 0px 10px;
 }
 
 #holder {
@@ -191,16 +209,18 @@ textarea {
 
 #journal_input {
   width:100%;
-  height:140px;
   color:black;
   display:flex;
   text-wrap:wrap;
   padding:6px;
-  font-size:.6rem;
+  font-size:.7rem;
+  height:140px;
+  resize: none;
 }
 
 #daily_journal {
-  background-color: rgba(90,90,90,1);
+  height:194px;
+  background-color: rgba(90,90,90,.7);
   border-radius:1rem;
   display:flex;
   padding:12px;
