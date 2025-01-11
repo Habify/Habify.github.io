@@ -114,7 +114,8 @@ body {
   width:94vw;
   height:max-content;
   display:flex;
-  gap:6px;
+  gap:12px;
+  margin-top:12px;
 }
 #block_two-left {
   width:50%;
@@ -125,7 +126,7 @@ body {
   height:max-content;
   display:flex;
   flex-wrap:wrap;
-  gap:6px;
+  gap:12px;
 }
 
 textarea {
@@ -148,12 +149,13 @@ textarea {
   width:100%;
   background-color: rgba(90,90,90,.7);
 
+  background-size:100%;
   border-radius:1rem;
   padding:12px;
   align-items:center;
   justify-content:center;
   gap:5px;
-  height:94px;
+  height:88px;
   text-shadow: black 1px 0px 10px;
 }
 
@@ -228,3 +230,11 @@ textarea {
   gap:12px;
 }
 
+#block_three {
+  width:94vw;
+  height:50px;
+  background-color: rgba(90,90,90,.7);
+  border-radius:1rem;
+  padding:12px;
+  margin-top:12px;
+}
