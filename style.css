@@ -149,8 +149,8 @@ textarea {
 }
 
 .milestone {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border-radius:250%;
   background-color:silver;
   display:flex;
@@ -180,6 +180,12 @@ textarea {
   background-color:purple;
 }
 #milestone6m {
+  background-color:orange;
+}
+#milestone9m {
+  background-color:teal;
+}
+#milestone1y {
   background-color:black;
 }
 
