@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   font-family:helvetica;
-  
+  overflow:hidden;
   box-sizing:border-box;
 }
 
@@ -20,6 +20,10 @@ body {
   justify-content: center;
 }
 
+#top_title {
+  font-size:.7rem;
+}
+
 #top_nav {
   width:100%;
   height:max-content;
@@ -27,6 +31,8 @@ body {
   color:white;
   display:flex;
   margin-bottom:2vh;
+  flex-wrap:wrap;
+  padding:12px;
 }
 
 #greeting {
