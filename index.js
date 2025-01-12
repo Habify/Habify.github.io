@@ -72,7 +72,6 @@ if (currentValue && !isNaN(currentValue)) {
 }
 
 // Store the updated value back in local storage
-localStorage.setItem("streakCount", currentValue);  
-  
-dailyStreakOutput.innerHTML= currentValue;
+  localStorage.setItem("streakCount", currentValue);  
+  dailyStreakOutput.innerHTML= currentValue;
  }
