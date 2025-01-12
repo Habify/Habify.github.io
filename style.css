@@ -21,7 +21,8 @@ body {
 }
 
 #top_title {
-  font-size:.7rem;
+  font-size:.85rem;
+  font-weight:700;
 }
 
 #top_nav {
@@ -55,7 +56,7 @@ body {
   background: linear-gradient(180deg, rgba(90,90,90,1) 0%, rgba(68,68,68,0) 100%);
   border-radius:1rem;
   display:flex;
-  padding:12px;
+  padding:16px;
 }
 
 #block_one-left {
@@ -65,9 +66,7 @@ body {
   width:50%;
   height:100%;
   
-  padding:12px;
   box-sizing:border-box;
-  border-radius:1rem;
 }
 
 .daily_quote {
@@ -120,7 +119,7 @@ body {
   width:94vw;
   height:max-content;
   display:flex;
-  gap:12px;
+  gap:8px;
   margin-top:12px;
 }
 #block_two-left {
@@ -132,7 +131,7 @@ body {
   height:max-content;
   display:flex;
   flex-wrap:wrap;
-  gap:12px;
+  gap:8px;
 }
 
 textarea {
@@ -142,26 +141,24 @@ textarea {
 #milestones {
   display:flex;
   flex-wrap:wrap;
-  gap:12px;
-  background-color: rgba(90,90,90,.7);
+  gap:10px;
+  background-color: #252525;
   border-radius:1rem;
-  padding:12px;
-  height:94px;
+  padding:16px;
+  height:102px;
 }
 
 #date {
   display:flex;
   flex-wrap:wrap;
   width:100%;
-  background-color: rgba(90,90,90,.7);
-
-  background-size:100%;
+  background-color: #252525;
   border-radius:1rem;
   padding:12px;
   align-items:center;
   justify-content:center;
   gap:5px;
-  height:88px;
+  height:102px;
   text-shadow: black 1px 0px 10px;
 }
 
@@ -221,16 +218,16 @@ textarea {
   text-wrap:wrap;
   padding:6px;
   font-size:.7rem;
-  height:140px;
+  height:85%;
   resize: none;
 }
 
 #daily_journal {
-  height:194px;
-  background-color: rgba(90,90,90,.7);
+  height:212px;
+  background-color: #252525;
   border-radius:1rem;
   display:flex;
-  padding:12px;
+  padding:16px;
   display:flex;
   flex-wrap:wrap;
   gap:12px;
@@ -239,7 +236,7 @@ textarea {
 #block_three {
   width:94vw;
   height:60px;
-  background-color: rgba(90,90,90,.7);
+  background-color: #252525;
   border-radius:1rem;
   padding:12px;
   margin-top:12px;
@@ -254,6 +251,16 @@ textarea {
   width:100%;
 }
 
-#dailyStreakAdd {
+#dailyStreakAdd, #dailyStreakSubtract, #dailyStreakClear {
   font-size:.6rem;
+  cursor: pointer;
+  padding-right:6px;
+}
+#dailyStreakAdd {
+  color:lime;
+}
+#dailyStreakSubtract {
+  color:#D2042D;
+}#dailyStreakClear {
+  color:silver;
 }
