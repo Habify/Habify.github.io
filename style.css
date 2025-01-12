@@ -33,7 +33,7 @@ body {
   background-color: black;
   color:white;
   display:flex;
-  margin-bottom:2vh;
+  margin-bottom:1vh;
   flex-wrap:wrap;
   padding:6px;
 }
