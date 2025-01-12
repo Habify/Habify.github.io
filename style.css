@@ -154,7 +154,7 @@ textarea {
   display:flex;
   flex-wrap:wrap;
   width:100%;
-  background: rgb(8,104,227);
+  background-color: #252525;
   border-radius:1rem;
   padding:12px;
   align-items:center;
