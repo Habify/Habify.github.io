@@ -23,6 +23,8 @@ body {
 #top_title {
   font-size:.85rem;
   font-weight:700;
+  padding-left:6px;
+  padding-top:6px;
 }
 
 #top_nav {
@@ -33,7 +35,7 @@ body {
   display:flex;
   margin-bottom:2vh;
   flex-wrap:wrap;
-  padding:12px;
+  padding:6px;
 }
 
 #greeting {
