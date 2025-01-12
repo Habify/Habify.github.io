@@ -85,7 +85,7 @@ body {
   font-size:.6rem;
   
   background: rgb(8,104,227);
-  background: linear-gradient(90deg, rgba(8,104,227,.4) 0%, rgba(8,104,227,0.2) 55%, rgba(8,104,227,0) 100%);
+  background: linear-gradient(90deg, rgba(8,104,227,.9) 0%, rgba(10,79,166,.3) 75%, rgba(7,54,115,0) 100%);
   width:50%;
   height:100%;
   
@@ -152,14 +152,14 @@ textarea {
   display:flex;
   flex-wrap:wrap;
   width:100%;
-  background-color: #252525;
+  background: rgb(205,44,9);
+  background: linear-gradient(90deg, rgba(205,44,9,.9) 28%, rgba(221,119,24,0.8) 80%);
   border-radius:1rem;
   padding:12px;
   align-items:center;
   justify-content:center;
   gap:5px;
   height:102px;
-  text-shadow: black 1px 0px 10px;
 }
 
 #holder {
