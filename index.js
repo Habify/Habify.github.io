@@ -1,22 +1,7 @@
-const currentDate = new Date();
-
-const year = currentDate.getFullYear(); 
-const month = currentDate.getMonth() + 1; // Months are 0-indexed, so add 1
-const day = currentDate.getDate();
 
 
-window.onload = addDate();
 window.onload = addDay();
 
-
-function addDate() {
-        var dayInput = document.getElementById("day");
-        var monthInput = document.getElementById("month");
-        var yearInput = document.getElementById("year");
-        dayInput.textContent  = day;
-        monthInput.textContent  = month;
-        yearInput.textContent  = year;
-        }
 
 
 function addDay() {
@@ -53,7 +38,8 @@ if (currentValue && !isNaN(currentValue)) {
 }
 
 // Store the updated value back in local storage
-  localStorage.setItem("streakCount", currentValue);  
+localStorage.setItem("streakCount", currentValue);  
+  
   dailyStreakOutput.innerHTML= currentValue;
 }
 
@@ -72,6 +58,8 @@ if (currentValue && !isNaN(currentValue)) {
 }
 
 // Store the updated value back in local storage
-  localStorage.setItem("streakCount", currentValue);  
-  dailyStreakOutput.innerHTML= currentValue;
+localStorage.setItem("streakCount", currentValue);  
+  
+dailyStreakOutput.innerHTML= currentValue;
  }
+
